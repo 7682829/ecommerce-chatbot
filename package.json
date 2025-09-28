@@ -4,10 +4,10 @@
   "description": "n8n chatbot for e-commerce",
   "main": "index.js",
   "scripts": {
-    "start": "n8n start"
+    "start": "n8n start --port=5678"
   },
   "dependencies": {
-    "n8n": "1.21.0"
+    "n8n": "^1.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
